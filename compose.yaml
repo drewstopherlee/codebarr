@@ -5,9 +5,6 @@ services:
     container_name: codebarr
     ports:
       - 5083:5083
-    container_name: codebarr
-    ports:
-      - 5083:5083
     env_file:
       - .env
     restart: unless-stopped
